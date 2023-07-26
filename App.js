@@ -1,26 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from './Button';
+import Header from './Header';
 
 function App() {
-  function Clickme(){
-    alert("I got clicked ")
-}
-
-
-
-
   return (
-    <div>
-      <h1>
-      <Button onClick={Clickme} text="submit" />
 
-      </h1>
+    <h1>
+      <Header title="I am from PW SKILLS"/>
 
 
-    </div>
-   
-   
+    </h1>
+
+    
+    
   );
 }
 
