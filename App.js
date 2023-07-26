@@ -1,18 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './Header';
+import List from './List';
 
 function App() {
   return (
 
-    <h1>
-      <Header title="I am from PW SKILLS"/>
+    <div>
+     <List item1= "Bike"/>
+    <List item2=" Car"/>
+    <List item3="Scooter"/>
+    <List item4="Cycle"/>
 
 
-    </h1>
+    </div>
 
     
-    
+   
   );
 }
 
